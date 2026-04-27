@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | My Spa Pro</title>
+  <meta name="description" content="My Spa Pro helps clients and spa professionals connect, manage appointments, and simplify spa services.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="My Spa Pro home"><img src="assets/logo.svg" alt="My Spa Pro"></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#features">Features</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="account-deletion.html">Delete Account</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="kicker">Mobile app for spa services</span>
+        <h1>Book, manage, and grow spa services with less stress.</h1>
+        <p class="lead">My Spa Pro is built to help clients discover spa services and help professionals manage appointments, communication, and customer relationships in one simple place.</p>
+        <div class="actions">
+          <a class="btn" href="support.html">Contact Support</a>
+          <a class="btn secondary" href="privacy.html">View Privacy Policy</a>
+        </div>
+      </div>
+      <div class="phone-card" aria-label="App preview">
+        <div class="mock-phone">
+          <div class="screen">
+            <span class="kicker">Today</span>
+            <h2 style="font-size:34px;margin-top:14px">Your spa day, organized.</h2>
+            <div class="app-pill"><span class="icon"></span><div><strong>Find services</strong><br><small>Browse spa options and availability.</small></div></div>
+            <div class="app-pill"><span class="icon"></span><div><strong>Book appointments</strong><br><small>Request or manage scheduling.</small></div></div>
+            <div class="app-pill"><span class="icon"></span><div><strong>Stay connected</strong><br><small>Receive updates and service details.</small></div></div>
+            <div class="app-pill"><span class="icon"></span><div><strong>Manage your profile</strong><br><small>Control account and privacy settings.</small></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <h2>Designed for clients and spa professionals.</h2>
+      <p class="lead">Use this page as your public app website for App Store, Google Play, support, privacy, and account deletion links.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Simple booking</h3>
+          <p>Help users request or manage spa appointments and keep service details easy to find.</p>
+        </article>
+        <article class="card">
+          <h3>Professional profiles</h3>
+          <p>Give providers a clean place to present services, availability, and business details.</p>
+        </article>
+        <article class="card">
+          <h3>Privacy-first controls</h3>
+          <p>Public pages explain data collection, account deletion, support, and user safety expectations.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container card">
+      <h2>Store review links</h2>
+      <p>Use these URLs in Apple App Store Connect and Google Play Console once the site is published:</p>
+      <ul>
+        <li><strong>Privacy Policy URL:</strong> <code>https://your-domain.com/privacy.html</code></li>
+        <li><strong>Support URL:</strong> <code>https://your-domain.com/support.html</code></li>
+        <li><strong>Account Deletion URL:</strong> <code>https://your-domain.com/account-deletion.html</code></li>
+      </ul>
+      <p>Replace <code>your-domain.com</code> with your actual hosting URL.</p>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <strong>My Spa Pro, LLC</strong><br>
+      Tennessee, USA<br>
+      <small>© <span id="year"></span> My Spa Pro, LLC. All rights reserved.</small>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="account-deletion.html">Account Deletion</a>
+      <a href="safety.html">Safety</a>
+      <a href="support.html">Support</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
